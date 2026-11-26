@@ -29,6 +29,14 @@ users" is a goal; "work on mail" is not.
 means your app keeps goals as checkable yes-or-no lines that only the herder changes, and judges
 progress against them, in production.
 
+## Open questions
+
+Not decided yet. Proposals welcome, as an issue or a pull request.
+
+- Is a week the right period for every kind of work, and how do goals that span several periods break
+  down?
+
 ## Changes
 
+- v0.2: open questions.
 - v0.1: first draft.

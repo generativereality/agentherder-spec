@@ -30,13 +30,33 @@ if the herder can review and steer from wherever they are, which is usually a ph
    turned into text. Nothing is acted on until it has been. A recording MUST NOT be lost because the
    device or the host went offline on the way.
 
+## One herd, many screens
+
+10. The host holds the herd's state. Every screen the herder uses (a phone, a second phone, a tablet,
+    the desktop) MUST show the same open cards, and a card answered on one MUST show as answered on all,
+    so the same decision is never made twice.
+11. The herder SHOULD be able to send the coordinator a new instruction from the phone, typed or
+    spoken, not only answer cards.
+
 ## Adopting AH-8
 
 means a herder can do all of their deciding from a phone, and is interrupted only when a decision is
 needed.
 
+## Open questions
+
+Not decided yet. Proposals welcome, as an issue or a pull request.
+
+- When the host is the herder's own laptop and it sleeps, what should the phone show, and should the
+  herd move to a machine in the cloud on its own?
+- Which devices' own speech recognition, if any, is good enough to rely on (rule 7), and how would an
+  app know?
+- Should the herder be able to answer while both the phone and the host are offline, and how is that
+  answer carried later?
+
 ## Changes
 
+- v0.2: one state on every screen (rule 10); new instructions from the phone (rule 11); open questions.
 - v0.2: spoken input, answers and new instructions alike, is recorded on the device and turned into
   text on the host, not by the phone's own speech recognition (rules 2, 7 to 9); rule 4 names the host.
 - v0.1: first draft.

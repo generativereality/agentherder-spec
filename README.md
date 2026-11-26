@@ -19,4 +19,4 @@ and how to contribute.
 | AH-8 | [Away from the desk](specs/AH-8-away-from-the-desk.md) |
 | AH-9 | [Nightly runs](specs/AH-9-nightly-runs.md) |
 
-Version v0.1, all specs draft. Licence: [CC BY 4.0](LICENSE). Contributions: [CONTRIBUTING.md](CONTRIBUTING.md).
+Version v0.2, all specs draft. Licence: [CC BY 4.0](LICENSE). Contributions: [CONTRIBUTING.md](CONTRIBUTING.md).

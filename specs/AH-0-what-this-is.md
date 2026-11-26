@@ -52,6 +52,7 @@ How you store, sync, notify or draw anything is yours. You may adopt one spec or
 
 Open an issue to report something unclear, wrong or missing, or to propose a new spec. Send a pull
 request to change the text. A new spec starts as an issue, so its scope is agreed before it is written.
+Each spec ends with *Open questions*: what it has not decided yet, and a good place to start.
 By contributing you agree that your contribution is published under this spec's licence.
 
 ## Licence
@@ -59,7 +60,19 @@ By contributing you agree that your contribution is published under this spec's 
 [CC BY 4.0](../LICENSE). You may copy, adapt and use the specs for any purpose, in a paid or closed app
 too, as long as you credit *"Agent Herder open spec, https://agentherder.com/spec"*.
 
+## Open questions
+
+Not decided yet. Proposals welcome, as an issue or a pull request.
+
+- How should an app say it keeps only part of a spec (some rules of AH-3, not all)? By rule number, or
+  should specs be split smaller?
+- Is a self-check per spec worth having (a list a builder can test their app against), and should apps
+  that adopt the spec be listed somewhere?
+- Can several herders share one herd, and what changes when they do (whose card is it, who may set
+  goals)?
+
 ## Changes
 
+- v0.2: open questions.
 - v0.2: adds the word *host*.
 - v0.1: first draft.

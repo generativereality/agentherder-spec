@@ -21,13 +21,23 @@ believes it is handled. And a herder who answered needs to see what came of it, 
 5. If the answer cannot be carried out as given, the stream MUST say so on a new card with what it
    can do instead, and MUST NOT carry out something else in its place.
 6. The herder SHOULD be able to see, for any card, what was answered, when, and what came of it.
+7. When the herder says no, or sends a card back, the reason SHOULD be kept where the stream reads it
+   before its next piece of similar work, so the same correction is never needed twice.
 
 ## Adopting AH-5
 
 means answers always reach the stream that asked, every answer is acted on or refused visibly, and the
 herder sees the outcome.
 
+## Open questions
+
+Not decided yet. Proposals welcome, as an issue or a pull request.
+
+- What should happen to an answer that arrives after the stream has moved on, or after the brief it
+  belonged to was dropped?
+
 ## Changes
 
+- v0.2: the reasons behind a no are kept for next time (rule 7); open questions.
 - v0.2: a spoken answer keeps its recording beside its text.
 - v0.1: first draft.
