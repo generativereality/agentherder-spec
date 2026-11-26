@@ -15,6 +15,8 @@ app that follows it, adopt part of it in an app they already have, or propose a 
 - **Coordinator:** the one session the herder talks to, which drives the others (AH-1).
 - **Card:** one question from a session to the herder (AH-3).
 - **Review page:** what a session writes when a card's note is not enough (AH-4).
+- **Host:** the machine the herd runs on, the herder's own desktop or one in the cloud. The herder's
+  phone and other screens reach the herd through it.
 
 The words MUST, MUST NOT, SHOULD and MAY are used as in RFC 2119: a MUST is what adopting a spec
 promises, a SHOULD is strong advice, a MAY is left to you.
@@ -59,4 +61,5 @@ too, as long as you credit *"Agent Herder open spec, https://agentherder.com/spe
 
 ## Changes
 
+- v0.2: adds the word *host*.
 - v0.1: first draft.
