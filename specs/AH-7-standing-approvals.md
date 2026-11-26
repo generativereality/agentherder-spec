@@ -25,12 +25,26 @@ what cannot be restored, and spending money.
    anything done in the herder's name to people who have not heard from them before. Each needs its
    own yes.
 6. When unsure whether an action falls inside a standing approval, a session MUST ask.
+7. When a session is refused a step it needs, by the app, the system or another tool, it MUST turn
+   that into a card asking for that one step by name, with what it is for. A card MUST NOT ask the
+   herder to run a command, handle a key or password, or carry out the step themselves. Signing in and
+   paying stay the herder's, and the card says so in plain words.
 
 ## Adopting AH-7
 
 means your app asks before anything leaves the machine or can't be undone, unless the herder wrote a
 narrow standing approval for it, and shows the herder every such approval and what was done under it.
 
+## Open questions
+
+Not decided yet. Proposals welcome, as an issue or a pull request.
+
+- How far should one approval reach: one session, one stream, every session in the herd?
+- What may a session do in a service the herder is signed in to, and how does the herder see what it did
+  there?
+
 ## Changes
 
+- v0.2: a refused step becomes a card asking for that step, never a command for the herder to run (rule
+  7); open questions.
 - v0.1: first draft.

@@ -40,6 +40,15 @@ A card is one question from one session to the herder. It has:
 means your app shows cards with these parts and keeps these rules. How you store, sync or notify is
 yours.
 
+## Open questions
+
+Not decided yet. Proposals welcome, as an issue or a pull request.
+
+- Should a card be able to expire, or say by when it needs an answer, and what happens when that passes?
+- How are cards ordered when many are open: oldest first, by what waits on them, or by the herder's own
+  priority?
+
 ## Changes
 
+- v0.2: open questions.
 - v0.1: first draft.

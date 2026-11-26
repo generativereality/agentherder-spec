@@ -29,12 +29,26 @@ Each stream has a **queue** of briefs.
    than invent work.
 6. The herder MUST be able to read any stream's queue and every brief's history: what was asked, what
    was answered, what was done.
+7. A stream MAY be long-running, serving one area (a site, the docs, a release line) and taking brief
+   after brief. Such a stream MUST have a written charter: what it is for, what it owns, what it never
+   touches, and what it may spend. The herder MUST be able to read and change it.
+8. A charter wins over a brief. A brief that asks for something outside the charter MUST become a card
+   (AH-3), not be carried out.
 
 ## Adopting AH-6
 
 means work reaches streams as written briefs in a queue with these statuses, and every brief ends
 with what it produced or why it was dropped.
 
+## Open questions
+
+Not decided yet. Proposals welcome, as an issue or a pull request.
+
+- Should goals, queues, briefs and charters be readable and editable as plain files outside the app, and
+  is a shared format worth agreeing so that apps can read each other's?
+- How does one stream hand a brief to another, and who sees it?
+
 ## Changes
 
+- v0.2: long-running streams with a charter (rules 7 and 8); open questions.
 - v0.1: first draft.

@@ -27,12 +27,25 @@ round. A herder looks at the whole herd and decides; the moving along is done by
 4. The coordinator MUST NOT decide what only the herder may decide (AH-7); it turns those into cards.
 5. The herder SHOULD be able to start, stop and hand a stream to a new session without losing its
    history: the brief, what was done, and the answers given (AH-6).
+6. A stream whose session stopped without finishing, or will not start, MUST show as *stopped* with
+   the reason, never as *working*. The app SHOULD start it again from its history (rule 5). It MUST NOT
+   leave starting it to the herder by hand: a stream that cannot be started is a fault the app reports.
 
 ## Adopting AH-1
 
 means your app shows the herd as streams with these states, keeps hands-on streams out of the
 coordinator's hands, and lets the coordinator ask rather than decide.
 
+## Open questions
+
+Not decided yet. Proposals welcome, as an issue or a pull request.
+
+- When the host sleeps or restarts, should streams that were working pick up on their own, and how many
+  failed restarts before the herder is asked?
+- How does the coordinator tell a stream that is stuck from one that is slow?
+
 ## Changes
 
+- v0.2: a stopped or failed stream shows as stopped, with the reason, and is restarted by the app (rule
+  6); open questions.
 - v0.1: first draft.

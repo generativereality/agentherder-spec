@@ -30,6 +30,14 @@ gives the herder just enough to agree or disagree.
 means your app's review pages open on the decision, show what was checked, offer whole options, and
 work on a phone.
 
+## Open questions
+
+Not decided yet. Proposals welcome, as an issue or a pull request.
+
+- What should a review page hold for work that is a video, a sound or a running app, rather than text
+  and pictures?
+
 ## Changes
 
+- v0.2: open questions.
 - v0.1: first draft.
