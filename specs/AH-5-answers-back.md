@@ -10,8 +10,9 @@ believes it is handled. And a herder who answered needs to see what came of it, 
 1. An answer MUST reach the session or work stream that asked, even if that session has stopped since.
    The app MAY resume it, or start a new session with its history; either way the answer is acted on
    by the stream that owns the question.
-2. A typed or spoken answer MUST count the same as a tapped one. A spoken answer is turned into text
-   and kept with the card.
+2. A typed or spoken answer MUST count the same as a tapped one. A spoken answer MUST be kept with
+   the card both as the recording and as its text, and the herder MUST be able to play the recording
+   next to the text, so a word heard wrong can be caught.
 3. Once answered, the card closes. A change of mind is a new message from the herder, never an edit
    that silently changes what was done.
 4. After acting on an answer, the stream MUST report the outcome where the herder will see it: done
@@ -28,4 +29,5 @@ herder sees the outcome.
 
 ## Changes
 
+- v0.2: a spoken answer keeps its recording beside its text.
 - v0.1: first draft.

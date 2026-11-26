@@ -16,6 +16,9 @@ if the herder can review and steer from wherever they are, which is usually a ph
    When it cannot be reached, the app MUST say so plainly, and MUST NOT show stale states as current.
 5. An answer given away from the desk MUST be acted on exactly as an answer given at the desk (AH-5).
 6. The app SHOULD let the herder see the whole herd (AH-1) from the phone, not only the open cards.
+7. A spoken answer SHOULD be turned into text on the herder's own computer, where the herd runs, so
+   the recording reaches no one else's service unless the herder chooses one. While that computer
+   cannot be reached, the app MUST keep the recording and say it is waiting to be turned into text.
 
 ## Adopting AH-8
 
@@ -24,4 +27,5 @@ needed.
 
 ## Changes
 
+- v0.2: a spoken answer is turned into text on the herder's own computer (rule 7).
 - v0.1: first draft.
