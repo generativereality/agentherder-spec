@@ -1,10 +1,6 @@
 # Agent Herder open spec
 
-The specs for an app that runs a herd of AI coding agents: what the herder sees, what they decide, and
-how the agents come to them. Specs only, no source code. Read them at https://agentherder.com/spec.
-
-Start with [AH-0 What this is](specs/AH-0-what-this-is.md): the words, versions, how to adopt a spec
-and how to contribute.
+The specs behind the Agent Herder app, an app for running a herd of AI coding agents: what the herder sees, what they decide and how the agents come to them. It's open spec rather than open source, so there's no source code here and nothing about how it's implemented. Build your own app from it with your own agent, adopt the parts you want in one you already have, and contribute to the specs the way you would to code: open an issue, or send a pull request to the text. Read it on the web at https://agentherder.com/spec, and start with AH-0.
 
 | Id | Spec |
 |---|---|
