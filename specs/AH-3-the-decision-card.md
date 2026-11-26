@@ -19,7 +19,9 @@ A card is one question from one session to the herder. It has:
   pressing it means the same as typing it. Four or more is a form, not a card.
 - **a review page** (optional): the finished work or plan, for when the note is not enough (AH-4).
 - **who asked:** which session or work stream raised it, so the answer can go back (AH-5).
-- **a number:** unique among the open cards, so several can be answered in one line.
+- **the goal it serves** (AH-2), or that it serves none, so the herder sees what the answer moves.
+- **a number:** unique among the open cards and never used again in the same period, so several can
+  be answered in one line, and an answer that quotes an old number cannot land on a new card.
 
 ## Rules
 
@@ -50,5 +52,6 @@ Not decided yet. Proposals welcome, as an issue or a pull request.
 
 ## Changes
 
+- v0.3: a card names the goal it serves; numbers are not reused within a period.
 - v0.2: open questions.
 - v0.1: first draft.
