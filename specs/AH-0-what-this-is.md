@@ -73,6 +73,7 @@ Not decided yet. Proposals welcome, as an issue or a pull request.
 
 ## Changes
 
+- v0.3: the goals view is in AH-2, so the first view is named.
 - v0.2: open questions.
 - v0.2: adds the word *host*.
 - v0.1: first draft.
