@@ -15,7 +15,8 @@ if the herder can review and steer from wherever they are, which is usually a ph
 4. The herd keeps running on the host (AH-0) while the herder is away. When the host cannot be
    reached, the app MUST say so plainly, and MUST NOT show stale states as current.
 5. An answer given away from the desk MUST be acted on exactly as an answer given at the desk (AH-5).
-6. The app SHOULD let the herder see the whole herd (AH-1) from the phone, not only the open cards.
+6. The app SHOULD let the herder see the goals view (AH-2) and the whole herd (AH-1) from the phone,
+   not only the open cards.
 
 ## Voice
 
@@ -56,6 +57,7 @@ Not decided yet. Proposals welcome, as an issue or a pull request.
 
 ## Changes
 
+- v0.3: the goals view on the phone too (rule 6).
 - v0.2: one state on every screen (rule 10); new instructions from the phone (rule 11); open questions.
 - v0.2: spoken input, answers and new instructions alike, is recorded on the device and turned into
   text on the host, not by the phone's own speech recognition (rules 2, 7 to 9); rule 4 names the host.
