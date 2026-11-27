@@ -38,6 +38,11 @@ A card is one question from one session to the herder. It has:
 5. A card the herder dismisses is a no. The session MUST NOT ask it again in other words.
 6. The herder MUST be able to answer several cards in one message by number, for example
    `176 A, 177 merge, 178 later`.
+7. A card MUST name its goal or say `none`. An app MAY refuse a card that does neither, or one that
+   names a goal the current period does not have.
+8. Numbers SHOULD stay short. An app MAY start each period at 1, above any card still open from the
+   last one, or keep one counter that never resets: both keep a number unique among the open cards and
+   never reused in a period.
 
 ## Adopting AH-3
 
@@ -54,6 +59,7 @@ Not decided yet. Proposals welcome, as an issue or a pull request.
 
 ## Changes
 
+- v0.4: a card names its goal or says none (rule 7); numbers stay short, by either of two ways (rule 8).
 - v0.3: every card offers an answer in the herder's own words, typed and spoken, with the offered
   answers as shortcuts beside it (rule 3).
 - v0.3: a card names the goal it serves; numbers are not reused within a period.
