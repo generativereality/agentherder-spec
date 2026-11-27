@@ -55,20 +55,23 @@ against it.
 
 ### Decided by the first build
 
-15. Periods follow one another with no gaps, and each has a key the herder can read (`2026-W48` for a
-    week). Until the herder picks a length, a period is a week. The current period is worked out from
-    today's date, not started by hand.
+15. Each period has a key the herder can read (`2026-W48` for a week). Until the herder picks a
+    length, a period is a week. The herder MAY start a period by hand, for example at a sprint's
+    planning meeting. Periods SHOULD follow one another with no gaps, but a break between them, such as
+    a holiday, is allowed.
 16. *Who* takes a next step MUST be one of: a named stream, a named person, the herder, or *nobody*. A
     goal with no one written down counts as *nobody*.
 17. A goal is a gap (rule 13) when *nobody* takes its next step, unless it is demoable and has no next
-    step left. The view MUST show how many gaps the period has.
+    step left, or it is *waiting on you*: then its next step is the herder's answer, on a card that
+    already exists. The view MUST show how many gaps the period has.
 18. The state shown is worked out at the time it is shown, in this order:
+    - recorded as *demoable* by a check during the current period: *demoable*;
+    - a card is open that names the goal: *waiting on you*, even if the goal has not been checked yet,
+      since the open card is itself measured when the view is shown;
     - not checked during the current period: *not checked*;
-    - a card is open that names the goal: *waiting on you*, unless the goal is demoable;
-    - recorded as *waiting on you* while no open card names it: *not checked*, because the reason for
-      the wait is gone;
     - otherwise the state the last check recorded.
-    What a blocked goal waits on is kept beside the state, not inside it.
+    *Waiting on you* is never recorded by a check; it is read only from the open cards. What a blocked
+    goal waits on is kept beside the state, not inside it.
 19. Cards that serve no goal of the current period MUST still show in the view, below the goals, in
     three groups: a goal from another period, a card that says it serves no goal, and a card that does
     not say.
