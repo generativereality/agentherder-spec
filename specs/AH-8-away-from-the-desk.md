@@ -9,7 +9,8 @@ if the herder can review and steer from wherever they are, which is usually a ph
 
 1. Everything needed to answer a card (the card, its note, its review page) MUST work on a phone.
    Nothing on it may require a desktop, a terminal or a sign-in to another tool.
-2. The herder SHOULD be able to answer by voice, and to give a new instruction by voice (rules 7 to 9).
+2. The herder MUST be able to answer any card by voice (AH-3 rule 3), and SHOULD be able to give a new
+   instruction by voice (rules 7 to 9).
 3. Notifications MUST be for cards only: something that needs a decision. Progress, finished work and
    routine reports MUST NOT notify; they are there when the herder looks.
 4. The herd keeps running on the host (AH-0) while the herder is away. When the host cannot be
@@ -57,6 +58,7 @@ Not decided yet. Proposals welcome, as an issue or a pull request.
 
 ## Changes
 
+- v0.3: answering a card by voice is a MUST (rule 2).
 - v0.3: the goals view on the phone too (rule 6).
 - v0.2: one state on every screen (rule 10); new instructions from the phone (rule 11); open questions.
 - v0.2: spoken input, answers and new instructions alike, is recorded on the device and turned into

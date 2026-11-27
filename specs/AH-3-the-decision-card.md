@@ -29,8 +29,10 @@ A card is one question from one session to the herder. It has:
    card.
 2. A card MUST state outcomes, not intentions: "deployed, test passed" or "not done: refused because
    …", never "I'm deploying it now".
-3. The herder can always answer in their own words instead of the offered answers, and can always send
-   a card back with "something's off".
+3. Every card MUST offer an answer in the herder's own words, typed and spoken (AH-8 rules 7 to 9),
+   beside the offered answers and always on the card, not behind another tap. The offered answers are
+   shortcuts, never the only way to answer. The herder can always send a card back with "something's
+   off".
 4. After asking, the session MUST stop and wait on that decision, and carry on only with work that
    does not depend on it.
 5. A card the herder dismisses is a no. The session MUST NOT ask it again in other words.
@@ -52,6 +54,8 @@ Not decided yet. Proposals welcome, as an issue or a pull request.
 
 ## Changes
 
+- v0.3: every card offers an answer in the herder's own words, typed and spoken, with the offered
+  answers as shortcuts beside it (rule 3).
 - v0.3: a card names the goal it serves; numbers are not reused within a period.
 - v0.2: open questions.
 - v0.1: first draft.
