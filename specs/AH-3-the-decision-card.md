@@ -38,6 +38,10 @@ A card is one question from one session to the herder. It has:
 5. A card the herder dismisses is a no. The session MUST NOT ask it again in other words.
 6. The herder MUST be able to answer several cards in one message by number, for example
    `176 A, 177 merge, 178 later`.
+7. A card MUST name its goal or say `none`. An app MAY refuse a card that does neither, or one that
+   names a goal the current period does not have.
+8. A new card's number is one more than the highest of: the last number used this period, and any
+   card still open. So a new period starts at 1, but above any card still open from the last one.
 
 ## Adopting AH-3
 
@@ -54,6 +58,7 @@ Not decided yet. Proposals welcome, as an issue or a pull request.
 
 ## Changes
 
+- v0.4: a card names its goal or says none (rule 7); how numbers carry across periods (rule 8).
 - v0.3: every card offers an answer in the herder's own words, typed and spoken, with the offered
   answers as shortcuts beside it (rule 3).
 - v0.3: a card names the goal it serves; numbers are not reused within a period.

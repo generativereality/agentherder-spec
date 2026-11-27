@@ -53,6 +53,26 @@ against it.
     the view beside the goals, with the same state, next step and who. The view is everything the
     herder answers for in the period, not only what was planned when it started.
 
+### Decided by the first build
+
+15. Periods follow one another with no gaps, and each has a key the herder can read (`2026-W48` for a
+    week). Until the herder picks a length, a period is a week. The current period is worked out from
+    today's date, not started by hand.
+16. *Who* takes a next step MUST be one of: a named stream, a named person, the herder, or *nobody*. A
+    goal with no one written down counts as *nobody*.
+17. A goal is a gap (rule 13) when *nobody* takes its next step, unless it is demoable and has no next
+    step left. The view MUST show how many gaps the period has.
+18. The state shown is worked out at the time it is shown, in this order:
+    - not checked during the current period: *not checked*;
+    - a card is open that names the goal: *waiting on you*, unless the goal is demoable;
+    - recorded as *waiting on you* while no open card names it: *not checked*, because the reason for
+      the wait is gone;
+    - otherwise the state the last check recorded.
+    What a blocked goal waits on is kept beside the state, not inside it.
+19. Cards that serve no goal of the current period MUST still show in the view, below the goals, in
+    three groups: a goal from another period, a card that says it serves no goal, and a card that does
+    not say.
+
 ## Adopting AH-2
 
 means your app keeps goals as checkable yes-or-no lines that only the herder changes, judges progress
@@ -70,6 +90,8 @@ Not decided yet. Proposals welcome, as an issue or a pull request.
 
 ## Changes
 
+- v0.4: decided by the first build: periods and their keys (rule 15), who takes a step (16), what a
+  gap is (17), how the shown state is worked out (18), and where cards for no current goal go (19).
 - v0.3: the goals view, the app's first view, with each goal's state measured in production, its
   next step and who takes it (rules 8 to 14); the herder sets how long a period is.
 - v0.2: open questions.
